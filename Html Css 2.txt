@@ -1,0 +1,92 @@
+HTML 
+2nd(CODE):  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Document</title>  
+<link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+<main class="cards">  
+<article class="card">  
+<img src="attach.jfif" alt="Sample photo">  
+<div class="text">  
+<h3>Quality Craftsmanship</h3>  
+<p>Our teddy bears are crafted with the utmost attention to detail, using high
+quality materials to ensure durability and a soft, huggable feel.</p> 
+<button>OFFERS</button>  
+</div>  
+</article>  
+<article class="card">  
+<img src="blue.jfif" alt="Sample photo">  
+<div class="text">  
+<h3>Cuddle Comfort</h3>  
+<p>The plush fur and carefully chosen stuffing create a perfect balance, 
+making our teddy bears the go-to companions for relaxation and cuddle 
+sessions..</p>  
+<button>OFFERS</button>  
+</div>  
+</article>  
+<article class="card">  
+<img src="images.jfif" alt="Sample photo">  
+<div class="text">  
+<h3>Versatile Gift</h3>  
+<p>Teddy bears are a versatile gift suitable for various occasions, from 
+celebrating a new birth to expressing sympathy during difficult times.</p>  
+<button>OFFERS</button>  
+</div>  
+</article>  
+<article class="card">  
+<img src="pinkk.jfif" alt="Sample photo">  
+<div class="text">  
+<h3>Sensory Pleasure for all ages</h3>  
+<p>The tactile satisfaction of our teddy bears goes beyond childhood.  
+Designed with a sensory-friendly approach, the touch and feel of our 
+bears are soothing and enjoyable.</p>  
+<button>OFFERS</button>  
+</div>  
+</article>  
+<article class="card">  
+<img src="yell.jfif" alt="Sample photo">  
+<div class="text">  
+<h3>Emotional Connection</h3>  
+<p>They evoke emotions and create sentimental connections, making them 
+a cherished keepsake for special occasions such as birthdays, anniversaries, and 
+holidays.</p>  
+<button>OFFERS</button>  
+</div>  
+</article>  
+</main>  
+</body>  
+</html> 
+
+CSS 2nd (CODE):  
+.cards { display: flex; flex-wrap: wrap; 
+justify-content: space-around; align
+items: stretch; background-image: 
+url("bg23.jpg"); background-repeat: 
+no-repeat; background-size: cover; 
+width:100%; position :absolute;  
+}  
+.card { flex: 0 0 200px; margin: 20px 10px; 
+border: 1px solid #100b0f; box-shadow: 2px 
+2px 6px 0px rgba(0,0,0,0.3);  
+}  
+.card img { max-width: 
+100%;  
+}  
+.card .text { padding: 0 
+20px 20px;  
+}  
+.card 
+.text 
+> 
+button 
+{ 
+background: rgb(164, 26, 26); 
+border: 0;  
+color: white; padding: 
+10px; width: 100%;  
+} 
